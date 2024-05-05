@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 
 # Load the image
-image = cv2.imread('colortracking\\test1.jpg')
+image = cv2.imread('test1.jpg')
 
 # Resize the image if needed
 image = cv2.resize(image, (640, 480))

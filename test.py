@@ -2,18 +2,19 @@ import cv2
 import numpy as np
 
 # Load the image
-image = cv2.imread('colortracking\\1.jpeg')
+image = cv2.imread('test1.jpg')
 
 # Resize the image if needed
 image = cv2.resize(image, (680, 480))
 
 # Define the lower and upper ranges for each color in HSV format
 color_ranges = {
-    'blue': ([100, 50, 50], [140, 255, 255]),
-    'green': ([40, 50, 50], [80, 255, 255]),
-    'red': ([0, 100, 100], [10, 255, 255]),
-    'yellow': ([20, 100, 100], [40, 255, 255]),
-    'pink': ([160, 100, 100], [180, 255, 255]),
+    'cyan-blue': ([99, 92, 47], [100, 255, 255]),
+    'dark-blue': ([111, 137, 74], [111, 255, 74]),
+    # 'red': ([0, 100, 100], [10, 255, 255]),
+    # 'yellow': ([20, 100, 100], [40, 255, 255]),
+    'white': ([0, 0, 200], [179, 20, 255]),
+    'pink': ([169, 77, 77], [169, 255, 255]),
 }
 
 # Convert image to HSV
