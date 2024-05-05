@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 
 # Load the image
-image = cv2.imread('test1.jpg')
+image = cv2.imread('test4.jpg')
 
 # Resize the image if needed
 image = cv2.resize(image, (680, 480))
@@ -10,9 +10,9 @@ image = cv2.resize(image, (680, 480))
 # Define the lower and upper ranges for each color in HSV format
 color_ranges = {
     'cyan-blue': ([90, 102, 64], [109, 255, 255]),
-    'dark-blue': ([0, 51, 0], [179, 255, 66]),
-    # 'red': ([0, 100, 100], [10, 255, 255]),
-    # 'yellow': ([20, 100, 100], [40, 255, 255]),
+    'dark-blue': ([106, 111, 51], [156, 194, 255]),
+    'red': ([0, 100, 100], [10, 255, 255]),
+    'yellow': ([20, 100, 100], [40, 255, 255]),
     'white': ([0, 0, 200], [179, 20, 255]),
     'pink': ([169, 77, 77], [169, 255, 255]),
 }
