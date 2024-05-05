@@ -19,7 +19,7 @@ Upload the image you want to test for the presence of colors you have specified 
 ## Results
 After testing the image, upon exiting the Python window, you will see the quantities of the specific color you chose displayed on the terminal.
 
-![Color Detection Results](Processed Image.png)
+![Color Detection Results](Processed_Image.png)
 ### Result for this image : 
 Quantity of CYAN-BLUE: 2
 Quantity of DARK-BLUE: 4
