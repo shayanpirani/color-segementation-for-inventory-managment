@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 
 # Load the image
-image = cv2.imread('test1.jpg')
+image = cv2.imread('test2.jpg')
 
 # Resize the image if needed
 image = cv2.resize(image, (680, 480))
